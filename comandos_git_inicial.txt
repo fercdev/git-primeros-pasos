@@ -1,0 +1,24 @@
+
+1- Inicializado el proyecto (Repositorio Local de Git) "NOTA: Se inicializa en una carpeta o directorio"
+    git init
+
+2- Agregar las modificaciones
+    -> Agregan el archivo que desea trackear (subcarpetas, archivos, scripts, etc)
+
+3- Agregar dichos archivos al index o zona de stagging
+    1-> git add mensaje.txt   --> es para especificar el archivo que queremos agregar
+    2-> git add .   --> es para agregar todas las modificaciones existentes en mi repositorio o directorio
+    3-> git add directorio/  --> agregamos todo el contenido del directorio indicado
+
+4- Crear un commit (hito de la modificacion realizada)
+    git commit -m "add: descripcion del cambio realizado"
+
+
+5- Sincronizado con el repositorio remoto (La plataforma de Github)
+    git remote add origin https://github.com/userGitHub/nombre-repositorio-remoto.git
+
+6- Validar que haya sido adicionado correctamente el repositorio remoto 
+    git remote -v 
+
+7- Subir los cambios 
+    git push -u origin master  --> tener en consideracion que despues de la palabra "origin" viene la rama original (master)
