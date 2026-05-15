@@ -10,6 +10,10 @@
     2-> git add .   --> es para agregar todas las modificaciones existentes en mi repositorio o directorio
     3-> git add directorio/  --> agregamos todo el contenido del directorio indicado
 
+3.1 - Para verificar que es lo que hemos agregado utilizar:
+
+    git status
+
 4- Crear un commit (hito de la modificacion realizada)
     git commit -m "add: descripcion del cambio realizado"
 
