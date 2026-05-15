@@ -1,0 +1,7 @@
+Hola mi nombre es fernando
+
+Nombre de mascotas:
+
+    - gato
+    - perro
+    - pez
